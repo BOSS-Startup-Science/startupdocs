@@ -81,7 +81,7 @@ return [
     'ip_address_precision' => env('IP_ADDRESS_PRECISION', 4),
 
     // Application timezone for back-end date functions.
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     // Default locale to use
     // A default variant is also stored since Laravel can overwrite
